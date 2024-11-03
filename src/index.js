@@ -18,25 +18,25 @@ const router = createBrowserRouter([
     {
         path: "/",
         element: (
-            <ProtectedRoute>
+
                 <App/>
-            </ProtectedRoute>
+
         ),
         errorElement: <ErrorPage/>,
     },
     {
         path: "/inventory-items",
         element: (
-            <ProtectedRoute>
+
                 <DetailPage/>
-            </ProtectedRoute>
+
         ),
     }, {
         path: "/login",
         element: (
-            <ProtectedRoute>
+
                 <LoginPage/>
-            </ProtectedRoute>
+
         ),
     }
 ]);
